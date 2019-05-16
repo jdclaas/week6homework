@@ -12,7 +12,7 @@ function displayTopicInfo() {
 		$("#gifs").empty();
 		for (var i = 0; i < results.length; i++) {
 		
-		var topicDiv = $("<div class='heroes'>");
+		var topicDiv = $("<div class='panel'>");
 		var rating = response.data[i].rating;
 		var pRate = $("<p>").text("Rating: " + rating);
 		topicDiv.append(pRate);
